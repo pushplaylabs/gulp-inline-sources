@@ -1,0 +1,33 @@
+{
+  "name": "gulp-inline-sources",
+  "version": "0.1.0",
+  "keywords": [
+    "js inline",
+    "css inline",
+    "html inline",
+    "inline sources",
+    "inline"
+  ],
+  "description": "Gulp plugin to inline all flagged js, css, image source files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Odnari <nick@odnari.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inline-source": "^7.2.0",
+    "plugin-error": "^1.0.1",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "vinyl": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjinks/inline-csp-hash.it"
+  },
+  "files": [
+    "index.js"
+  ]
+}
